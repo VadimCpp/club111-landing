@@ -1,25 +1,42 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 .bg-even {
-  background-color: rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
 }
+
 .btn-wrap {
-  word-break: break-word;
-  white-space: normal;
+    word-break: break-word;
+    white-space: normal;
 }
+
 #go-top {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 2;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
 }
+
 .navbar {
-  border-bottom: 1px solid rgba(204, 204, 204, 0);
-  transition-duration: 0.3s;
+    border-bottom: 1px solid rgba(204, 204, 204, 0);
+    transition-duration: 0.3s;
 }
+
 .border-b {
-  border-bottom: 1px solid rgba(204, 204, 204, 1);
-  transition-duration: 0.3s;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    transition-duration: 0.3s;
+}
+
+.text-size-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    text-overflow: ellipsis;
+}
+
+.text-size-wrap:hover {
+    white-space: normal;
 }

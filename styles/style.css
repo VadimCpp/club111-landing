@@ -30,13 +30,8 @@ html {
 }
 
 .text-size-wrap {
-    white-space: nowrap;
+    width: 250px;
+    height: 50px;
     overflow: hidden;
-    margin-top: 15px;
-    margin-bottom: 2px;
     text-overflow: ellipsis;
-}
-
-.text-size-wrap:hover {
-    white-space: normal;
 }

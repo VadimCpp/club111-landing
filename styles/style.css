@@ -38,6 +38,8 @@ html {
 }
 
 .text-size-wrap {
+    margin-top: 15px;
+    margin-bottom: 5px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

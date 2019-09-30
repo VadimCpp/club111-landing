@@ -37,10 +37,14 @@ html {
     line-height: var(--lh);
 }
 
+/* Ref: https://stackoverflow.com/a/19049457/1775459 */
 .text-size-wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 45px;
     margin-top: 15px;
     margin-bottom: 5px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
 }

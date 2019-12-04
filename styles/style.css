@@ -58,7 +58,7 @@ html {
     text-align: center;
 }
 
-.bg-even .filter-btn ul {
+.bg-even .filter-btn div {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -69,10 +69,7 @@ html {
     padding: 30px 0px 40px;
 }
 
-.bg-even .filter-btn ul li {
-    display: inline-block;
-    background-color: #17a2b8;
-
+.bg-even .filter-btn div button {
     padding: 8px 20px;
     border-radius: 5px;
     color: #fff;
